@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@heroku-cli/plugin-buildpacks": "^7.54.0",
     "@heroku/buildpack-registry": "^1.0.1",
     "async-file": "^2.0.2",
     "cli-ux": "^5.6.3",
@@ -21,7 +22,7 @@
     "mongoose": "^5.13.5",
     "phoenix": "^1.5.9"
   },
-  "engines" : {
+  "engines": {
     "node": "14.16.0"
   }
 }

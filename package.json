@@ -5,15 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "cli-ux": "^5.6.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "got": "^11.8.2",
     "heroku": "^7.56.1",
-    "mongoose": "^5.13.5"
+    "mongoose": "^5.13.5",
+    "phoenix": "^1.5.9"
   }
 }
